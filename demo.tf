@@ -1,12 +1,12 @@
-local {
+locals {
   arr = ["host1", "host2", "host3"]
 }
 
-local {
+locals {
   arr2 = ["host1", "host2", "host3"]
 }
 
-local {
+locals {
   arr3 = ["host1", "host2", "host3"]
 }
 
@@ -15,5 +15,5 @@ output "test" {
 }
 
 output "test2" {
-  value = local.arr
+  value = local.arr3
 }
